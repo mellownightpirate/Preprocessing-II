@@ -1,1 +1,10 @@
 // Mixins in here
+.border(@width: 2px; @style: solid; @color: teal) {
+    border: @width @style @color;  
+ }
+
+ .flexcenter(@display: flex, @just-cont: center, @align-items: center) {
+    display: @display;
+    justify-content: @just-cont;
+    align-items: @align-items;
+  }
